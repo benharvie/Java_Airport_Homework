@@ -42,13 +42,15 @@
       <file leaf-file-name="Flight.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#325#326#0" expanded="true" />
                 <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,14 +59,16 @@
       <file leaf-file-name="FlightTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="405">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#351#352#0" expanded="true" />
                 <element signature="e#470#471#0" expanded="true" />
                 <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -482,7 +486,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlightTest.hasFlightNumber">
+  <component name="RunManager" selected="JUnit.FlightTest.hasDestination">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -493,6 +497,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
       <option name="METHOD_NAME" value="flightHasPlane" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FlightTest.hasDestination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Airport_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
+      <option name="METHOD_NAME" value="hasDestination" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -527,23 +548,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
       <option name="METHOD_NAME" value="hasPlane" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PlaneTest.planeHasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Airport_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
-      <option name="METHOD_NAME" value="planeHasCapacity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -610,19 +614,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PlaneTest.planeHasCapacity" />
       <item itemvalue="JUnit.PlaneTest.planeStartsEmpty" />
       <item itemvalue="JUnit.FlightTest.flightHasPlane" />
       <item itemvalue="JUnit.FlightTest.hasFlightNumber" />
       <item itemvalue="JUnit.FlightTest.hasPlane" />
+      <item itemvalue="JUnit.FlightTest.hasDestination" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest.hasDestination" />
         <item itemvalue="JUnit.FlightTest.hasFlightNumber" />
         <item itemvalue="JUnit.FlightTest.hasPlane" />
         <item itemvalue="JUnit.FlightTest.flightHasPlane" />
         <item itemvalue="JUnit.PlaneTest.planeStartsEmpty" />
-        <item itemvalue="JUnit.PlaneTest.planeHasCapacity" />
       </list>
     </recent_temporary>
   </component>
@@ -640,12 +644,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlaneTest_planeHasType - 2018.10.12 at 10h 51m 59s.xml">
-      <configuration name="PlaneTest.planeHasType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlaneTest - 2018.10.12 at 10h 52m 18s.xml">
-      <configuration name="PlaneTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlaneTest_planeHasType - 2018.10.12 at 10h 54m 44s.xml">
       <configuration name="PlaneTest.planeHasType" configurationId="JUnit" />
     </history-entry>
@@ -666,6 +664,15 @@
     </history-entry>
     <history-entry file="FlightTest_flightHasPlane - 2018.10.12 at 11h 41m 22s.xml">
       <configuration name="FlightTest.flightHasPlane" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightTest_hasFlightNumber - 2018.10.12 at 11h 47m 35s.xml">
+      <configuration name="FlightTest.hasFlightNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightTest_hasPlane - 2018.10.12 at 11h 47m 38s.xml">
+      <configuration name="FlightTest.hasPlane" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightTest_hasFlightNumber - 2018.10.12 at 11h 47m 41s.xml">
+      <configuration name="FlightTest.hasFlightNumber" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -751,6 +758,8 @@
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -977,6 +986,8 @@
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1204,27 +1215,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="405">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
             <element signature="e#470#471#0" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#325#326#0" expanded="true" />
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
           </folding>
         </state>
       </provider>
