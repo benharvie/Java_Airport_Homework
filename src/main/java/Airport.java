@@ -6,9 +6,14 @@ public class Airport {
 
     public Airport(AirportCode code){
         this.code = code;
+        this.hangar = new ArrayList<>();
     }
 
     public AirportCode getCode() {
         return code;
+    }
+
+    public ArrayList getPlanes() {
+        return hangar;
     }
 }

@@ -17,10 +17,10 @@ public class AirportTest {
         assertEquals(AirportCode.EDI, airport.getCode());
     }
 
-//    @Test
-//    public void startsEmpty(){
-//
-//    }
+    @Test
+    public void startsEmpty(){
+        assertEquals(0, airport.getPlanes().size());
+    }
 //
 //    @Test
 //    public void canCreateFlight(){
