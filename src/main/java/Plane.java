@@ -18,4 +18,8 @@ public class Plane {
     public PlaneAirline getAirline() {
         return airline;
     }
+
+    public ArrayList<String> getPassengers() {
+        return passengers;
+    }
 }
