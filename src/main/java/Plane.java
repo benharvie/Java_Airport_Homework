@@ -14,4 +14,8 @@ public class Plane {
     public PlaneType getType() {
         return type;
     }
+
+    public PlaneAirline getAirline() {
+        return airline;
+    }
 }
