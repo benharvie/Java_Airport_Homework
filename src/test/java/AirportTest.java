@@ -21,11 +21,14 @@ public class AirportTest {
     public void startsEmpty(){
         assertEquals(0, airport.getPlanes().size());
     }
-//
-//    @Test
-//    public void canCreateFlight(){
-//
-//    }
+
+    @Test
+    public void canCreateFlight(){
+        airport.addPlaneToHanger(new Plane(PlaneType.BOEING, PlaneAirline.BRITISHAIRWAYS));
+        assertEquals(1, airport.getPlanes().size());
+        Flight newFlight = airport.createFlight(44, "Edinburgh");
+        assertEquals( 44, newFlight.getFlightNumber());
+    }
 //
 //    @Test
 //    public void canSellTicket(){
